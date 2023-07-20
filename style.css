@@ -1,0 +1,82 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+.container{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 40px;
+    background-color: rgb(242, 245, 204);
+    border-radius: 10px;
+}
+
+.container1 label{
+    display: block;   
+}
+
+.container1 input,textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+.genders{
+    
+    display: flex;
+    align-items: center;
+}
+
+.genders label{
+    display: inline;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    
+    
+}
+
+.genders input{
+    display: inline;
+    width: auto;
+    margin: 7px;
+    padding: 0px;
+    text-align: center;
+}
+
+.select{
+    display: flex;
+    justify-content: left;
+    margin: 8px 0px;
+    
+}
+.select label,select{
+    margin: 5px 0px;
+    padding: 0px;
+}
+
+.container button{
+    margin: 10px 23%;
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(133, 221, 179);
+    border-radius: 50px;
+}
+
+table th,td{
+    border: 2px solid black;
+    height: 50px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
